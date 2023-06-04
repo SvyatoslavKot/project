@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/loginPage.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+
+<body>
+    <div class="overflow-hidden position-relative" id="click-home">
+
+        <div class=" login-box">
+
+            <div class="container">
+                <div class="wrapper__fitness">
+                    <div class="row">
+
+                        <div class="box box-info">
+
+                            <div class="box-header with-border col-12">
+                                <h3 class="box-title">Добро пожаловать</h3>
+                            </div>
+                            <div class="box-header with-border error-title-container col-12">
+                                <h5 class="box-title error-title" id="error-title">  </h5>
+                            </div>
+
+                            <div class="form-horizontal">
+                                <div class="box-body">
+                                    <div class="form-group">
+                                        <label for="mail" class="col-sm-2 control-label">Email</label>
+
+                                        <div class="col-sm-12">
+                                            <input type="email" class="mail form-control " id="mail" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password" class="col-sm-2 control-label">Password</label>
+
+                                        <div class="col-sm-12">
+                                            <input type="password" class="password form-control " id="password" placeholder="Password">
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-sm-offset-2 col-sm-10 col-12">
+                                            <div class="checkbox">
+                                                <label>
+                                                    <input type="checkbox"> Remember me
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.box-body -->
+
+
+                                <div class="box-footer col-12">
+                                    <button  class="singIn button sing-in-button pull-right " id="singIn" >Войти</button>
+                                    <button  onclick="window.location.href = 'http://localhost/reg'" class="regButton button btn-default">Регистрация</button>
+                                </div>
+
+
+                                <!-- /.box-footer -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+</body>
+<script src="/js/logic/login.js"></script>
+
+
+</script>
+
+</html>
